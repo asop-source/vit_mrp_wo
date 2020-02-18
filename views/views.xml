@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+
+    <record id="viewe_work_order_form" model="ir.ui.view">
+          <field name="name">mrp.workorder.form</field>
+          <field name="model">mrp.workorder</field>
+          <field name="inherit_id" ref="mrp.mrp_production_workorder_form_view_inherit"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='qty_production']" position="replace">
+                    <field name="qty_product" />
+                </xpath>
+            </field>
+    </record>
+
+  </data>
+</odoo>

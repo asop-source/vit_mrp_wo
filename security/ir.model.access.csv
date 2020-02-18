@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vit_mrp_wo_vit_mrp_wo,vit_mrp_wo.vit_mrp_wo,model_vit_mrp_wo_vit_mrp_wo,,1,0,0,0
